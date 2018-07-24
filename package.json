@@ -1,0 +1,14 @@
+{
+  "name": "lemon-util",
+  "version": "0.1.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemonppai/util.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2"
+  }
+}
