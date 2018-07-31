@@ -9,6 +9,8 @@
   + getEls 获取元素集合
   + addEvent 绑定事件
   + removeEvent 解绑事件
+  + dispatchEvent 触发事件
+  + getEvent 获取事件对象
   + addClass 增加样式class
   + removeClass 删除样式class
   + toggleClass 切换样式class
