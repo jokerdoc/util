@@ -1,10 +1,10 @@
 {
   "name": "lemon-util",
-  "version": "0.1.7",
+  "version": "2.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lemonppai/util.git"
+    "url": "git+https://github.com/jokerdoc/util.git"
   },
   "main": "index.js",
   "scripts": {
