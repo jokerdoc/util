@@ -19,14 +19,14 @@
 
 ### 在项目中安装
 ```bash
-npm install lemon-util --save
+npm install jo-util --save
 # 或
-yarn add lemon-util
+yarn add jo-util
 ```
 
 ### 使用
 ```js
-import util from 'lemon-util';
+import util from 'jo-util';
 
 util.addEvent('#el', 'click', (event) => {
   console.log('我被点击了');
