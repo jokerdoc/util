@@ -1,6 +1,6 @@
 {
   "name": "jo-util",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -8,13 +8,13 @@
   },
   "main": "index.js",
   "scripts": {
-    "pack": "lemon-pack"
+    "pack": "jo-pack"
   },
   "dependencies": {
     "lodash": "^4.17.10",
     "moment": "^2.22.2"
   },
   "devDependencies": {
-    "lemon-pack": "^0.2.0"
+    "jo-pack": "^0.1.0"
   }
 }
