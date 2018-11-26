@@ -1,6 +1,6 @@
 {
   "name": "jo-util",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -10,10 +10,7 @@
   "scripts": {
     "pack": "jo-pack"
   },
-  "dependencies": {
-    "lodash": "^4.17.10",
-    "moment": "^2.22.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "jo-pack": "^0.1.0"
   }
