@@ -1,6 +1,6 @@
 {
   "name": "jo-util",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -8,10 +8,19 @@
   },
   "main": "index.js",
   "scripts": {
-    "pack": "jo-pack"
+    "build": "rollup -c"
   },
+  "files": [
+    "index.js",
+    "dist/util.js"
+  ],
   "dependencies": {},
   "devDependencies": {
-    "jo-pack": "^0.1.0"
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "rollup": "^0.68.0",
+    "rollup-plugin-babel": "^4.1.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
   }
 }
