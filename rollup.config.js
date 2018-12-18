@@ -5,7 +5,7 @@ export default {
   input: 'lib/util.js',
   output: {
     file: './dist/util.js',
-    format: 'umd',
+    format: 'cjs',
     name: 'util'
   },
   plugins: [

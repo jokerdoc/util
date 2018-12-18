@@ -1,2 +1,2 @@
-import * as util from './dist/util';
+import * as util from './lib/util';
 export default util;
