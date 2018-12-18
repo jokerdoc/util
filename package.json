@@ -1,6 +1,6 @@
 {
   "name": "jo-util",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -12,6 +12,7 @@
   },
   "files": [
     "index.js",
+    "lib/util.js",
     "dist/util.js"
   ],
   "dependencies": {},
