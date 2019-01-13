@@ -1,19 +1,22 @@
 import resolve from 'rollup-plugin-node-resolve';
+import commonjs from 'rollup-plugin-commonjs';
 import babel from 'rollup-plugin-babel';
 
 export default {
   input: 'lib/util.js',
   output: {
     file: './dist/util.js',
-    format: 'cjs',
+    format: 'umd',
     name: 'util'
   },
   plugins: [
     resolve(),
+    commonjs(),
     babel({
       runtimeHelpers: true,
       babelrc: false,
-      presets: [['@babel/preset-env', { modules: false }]]
+      exclude: 'node_modules/**',
+      presets: [['@babel/preset-env', { modules: false }]],
     })
   ]
 };
