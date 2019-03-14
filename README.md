@@ -16,6 +16,10 @@
   + toggleClass 切换样式class
   + getOffset 获取元素页面位置
   + getClientRect 获取元素位置、大小信息
+  + testColl 碰撞检测
+  + copyText 复制文本
+  + debounce 防抖
+  + throttle 节流
 
 ### 在项目中安装
 ```bash
