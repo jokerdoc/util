@@ -29,6 +29,14 @@
 
     util.toggleClass(el, 'active');
   })
+
+  let fn = util.throttle(() => {
+    console.log(new Date());
+  }, 500);
+
+  util.addEvent(document, 'mousemove', () => {
+    fn();
+  });
   </script>
 </body>
 </html>
