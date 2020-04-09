@@ -7,7 +7,7 @@ export default {
   output: {
     file: './dist/util.js',
     format: 'umd',
-    name: 'util'
+    name: 'joUtil'
   },
   plugins: [
     resolve(),
