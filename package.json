@@ -1,6 +1,6 @@
 {
   "name": "jo-util",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -12,7 +12,6 @@
     "build": "rollup -c"
   },
   "files": [
-    "index.js",
     "lib",
     "dist"
   ],
