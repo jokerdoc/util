@@ -1,12 +1,12 @@
 {
   "name": "jo-util",
-  "version": "0.2.8",
+  "version": "0.3.0",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jokerdoc/util.git"
   },
-  "main": "index.js",
+  "main": "dist/util.js",
   "scripts": {
     "serve": "http-server -p 8000 -o",
     "build": "rollup -c"
