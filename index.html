@@ -23,18 +23,18 @@
   <div id="div1"></div>
 
   <script>
-  let el = util.getEl('#div1');
-  util.addEvent(el, 'click', () => {
+  let el = joUtil.getEl('#div1');
+  joUtil.addEvent(el, 'click', () => {
     // console.log('我被点击了')
 
-    util.toggleClass(el, 'active');
+    joUtil.toggleClass(el, 'active');
   })
 
-  let fn = util.throttle(() => {
+  let fn = joUtil.throttle(() => {
     console.log(new Date());
   }, 500);
 
-  util.addEvent(document, 'mousemove', () => {
+  joUtil.addEvent(document, 'mousemove', () => {
     fn();
   });
   </script>
